@@ -4,6 +4,7 @@ import TaskItem from './components/TaskItem.js';
 import InputField from './components/InputField.js';
 import AddTaskForm from './components/AddTaskForm.js';
 import TaskList from './components/TaskList.js';
+import TaskManager from './components/TaskManager.js';
 
 function App() {
   const taskProps = {
@@ -15,7 +16,7 @@ function App() {
       <h1>Task Manager</h1>
       {/*<TaskItem taskName={taskProps.taskName} taskBody={taskProps.taskBody}/>*/}
       {/*<AddTaskForm/>*/}
-      <TaskList/>
+      <TaskManager/>
     </div>
   );
 }
